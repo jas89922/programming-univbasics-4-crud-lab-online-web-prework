@@ -1,17 +1,19 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+  ["pasta", "steak", "fish", "salad"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
-end
+  ["pasta", "steak", "fish", "salad", "chicken"]
+  food_for_dinner << "chicken"
+  end
 
 def add_element_to_start_of_array(array, element)
-  
+  ["chicken", "pasta", "steak", "fish", "salad"]
+  food_for_dinner.unshift = "chicken"
 end
 
 def remove_element_from_end_of_array(array)
