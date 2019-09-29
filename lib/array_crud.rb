@@ -7,7 +7,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  food_for_dinner = ["pasta", "steak", "fish", "salad","chicken"]
+  food_for_dinner = ["pasta", "steak", "fish", "salad"]
   food_for_dinner << "chicken"
   end
 
